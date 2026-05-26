@@ -1,5 +1,8 @@
 minimumReleaseAge: 0
 allowBuilds:
-  - esbuild
-  - unrs-resolver
-  - workerd
+  '0': esbuild
+  '1': unrs-resolver
+  '2': workerd
+  esbuild: true
+  unrs-resolver: true
+  workerd: true
